@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/calculaterhome"
+    tools:context=".home1">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="287dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="115dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Welcome to my calculater app"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/GradeCalculater"
+        android:layout_width="160dp"
+        android:layout_height="94dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="349dp"
+        android:text="grade calculater" />
+
+    <Button
+        android:id="@+id/Calculater"
+        android:layout_width="160dp"
+        android:layout_height="94dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginBottom="166dp"
+        android:text="calculater" />
+
+</RelativeLayout>
